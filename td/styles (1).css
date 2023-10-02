@@ -1,0 +1,95 @@
+.navbar{
+    background-color: black;
+    color: white;
+}
+.nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav-list li{
+    float: left;
+}
+.nav-list li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.nav-list li a:hover{
+    color: rgb(0, 0, 255);
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+.dropdown drop_btn{
+
+}
+.dropdown_content{
+    display: none;
+    position: absolute;
+}
+.dropdown_content a{
+    display: none; 
+    color: black;
+    float: none;
+}
+.dropdown:hover .dropdown_content{
+    display: block;
+    background-color: black;
+}
+.container{
+    
+    padding: 10px;
+    border-radius: 25px;
+}
+.cards{
+    background-color: rgb(17, 10, 10);
+    justify-content: center;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 200px 200px;
+    gap: 25px;
+    
+}
+#c{
+    border: 2px  blue;
+    border-radius: 10%;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+
+footer{
+    background-color: rgb(28, 0, 130);
+    text-align: center;
+    padding: 15px;
+    position: relative
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+}
